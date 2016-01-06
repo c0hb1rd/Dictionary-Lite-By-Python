@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # coding=utf-8
-__author__ = 'crackgg'
+__author__ = 'c0hb1rd'
 import requests
 import re
 import Tkinter
