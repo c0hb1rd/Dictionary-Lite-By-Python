@@ -14,7 +14,6 @@ class MyWindow(Tkinter.Tk):
         self.edit = self.new_edit(20, 20)
         self.edit.bind('<Return>', self.refresh_result)
         self.edit.bind('<Control-BackSpace>', lambda e:self.edit.delete(0, len(self.edit.get()))) 
-        self.edit.bind('<Key>', self.refresh_result)
         self.new_button('Translate', 20 + 150, 20 - 5, self.refresh_result).bind('<Return>', self.refresh_result)
         self.list = []
 
